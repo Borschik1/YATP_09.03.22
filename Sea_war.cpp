@@ -6,27 +6,31 @@ using namespace std;
 class Pole {
 public:
     Cell pole[10][10];
+
+    void attack(Cell cell) {
+    }
 };
 
 class Cell {
 public:
     int pos_x;
     int pos_y;
-    bool is_ship;
+    string type;
 
 };
 
 class Ship1 {
     Cell first;
 
-    void add_at_pole() {
+    void die() {
     }
 };
 
 class Ship2 {
     Cell first;
     Cell second;
-    void add_at_pole() {
+
+    void die() {
     }
 };
 
@@ -34,7 +38,8 @@ class Ship3 {
     Cell first;
     Cell second;
     Cell thirth;
-    void add_at_pole() {
+
+    void die() {
     }
 };
 
@@ -43,7 +48,8 @@ class Ship4 {
     Cell second;
     Cell thirth;
     Cell fourth;
-    void add_at_pole() {
+
+    void die() {
     }
 };
 
@@ -53,7 +59,8 @@ class Ship5 {
     Cell thirth;
     Cell fourth;
     Cell fifth;
-    void add_at_pole() {
+
+    void die() {
     }
 };
 
