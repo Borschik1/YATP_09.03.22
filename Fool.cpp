@@ -3,11 +3,6 @@
 
 using namespace std;
 
-
-class {
-};
-
-
 class Card {
 public:
     int num;
